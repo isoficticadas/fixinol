@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixinol</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/font.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/prod2transp.webp" type="image/x-icon" />
+    <!-- Facebook Pixel Code -->
+     <script src="/js/facebook-pixel.js" defer></script>
+    <!-- End Facebook Pixel Code -->
+  </head>
+
+  <body>
+    <header class="header-nav">
+      <div class="header__content content-width">
+        <img src="./img/prod2transp.webp" class="header-nav__logo" alt="" />
+        <h2 class="header__heading">
+          ¡APRESÚRESE! PARA EL DÍA DE HOY, POCA UNIDADES EN PROMOCIÓN
+        </h2>
+      </div>
+    </header>
+
+    <!-- Sección: Header móvil -->
+    <div class="header__product--mob">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__top">
+            <a href="./" class="navigate" data-target="footerForm">
+              <img src="./img/logo.svg" alt="Fixinol" class="header__logo" />
+            </a>
+            <p class="header__subtitle">Restaurará tus articulaciones</p>
+          </div>
+          <div class="header__image">
+            <img src="./img/prod-box.webp" alt="Fixinol" class="header__img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección: Header desktop -->
+    <nav class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__product">
+            <div class="header__top">
+              <a href="./" class="navigate" data-target="footerForm">
+                <img src="./img/logo.svg" alt="Fixinol" class="header__logo" />
+              </a>
+              <p class="header__subtitle">Restaurará tus articulaciones</p>
+            </div>
+            <div class="header__image">
+              <img
+                src="./img/prod-box.webp"
+                alt="Fixinol"
+                class="header__img"
+              />
+            </div>
+          </div>
+          <!-- Formulario principal -->
+          <div class="header__form form-block">
+            <div class="form-block__header">
+              <p class="form-block__text">
+                RELLENE EL SIGUIENTE FORMULARIO PARA OBTENER SU DESCUENTO
+              </p>
+            </div>
+            <form id="mainForm" class="form-block__form">
+              <div class="form-block__prices">
+                <div class="form-block__price form-block__price--old">
+                  Precio inicial
+                  <span class="oldPriceAndLabelForLandingInfoApi price"
+                    >78&nbsp;$</span
+                  >
+                </div>
+                <div class="form-block__price form-block__price--new">
+                  Precio con descuento
+                  <span class="priceAndLabelForLandingInfoApi price"
+                    >39&nbsp;$</span
+                  >
+                </div>
+              </div>
+              <div class="form-block__labels">
+                <label for="name" class="form-block__label">
+                  <input
+                    id="name"
+                    type="text"
+                    name="name"
+                    class="form-block__input"
+                    placeholder="Nombre"
+                    required
+                  />
+                </label>
+                <label for="phone" class="form-block__label">
+                  <input
+                    id="phone"
+                    type="tel"
+                    name="phone"
+                    class="form-block__input"
+                    placeholder="Número de teléfono (+593)"
+                    required
+                  />
+                </label>
+              </div>
+              <div id="mainFormLoading" class="loading hidden">
+                Procesando su solicitud...
+              </div>
+              <button class="form-block__btn" type="submit">Pedir</button>
+            </form>
+            <!-- Temporizador -->
+            <div class="form-block__timer">
+              <!-- <p class="days">dias restantes</p>
+                  <div class="timer">
+                    <div class="time-container">
+                      <span class="hour">
+                        <span class="num hour0">-</span>
+                        <span class="num hour1">-</span>
+                      </span>
+                      <span class="time-text">horas</span>
+                    </div>
+                    :
+                    <div class="time-container">
+                      <span class="minute">
+                        <span class="num min0">-</span>
+                        <span class="num min1">-</span>
+                      </span>
+                      <span class="time-text">minutos</span>
+                    </div>
+                    :
+                    <div class="time-container">
+                      <span class="second">
+                        <span class="num sec0">-</span>
+                        <span class="num sec1">-</span>
+                      </span>
+                      <span class="time-text">segundos</span>
+                    </div>
+                  </div> -->
+            </div>
+            <!-- Fin Temporizador -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sección 1 -->
+    <section class="section1">
+      <div class="container">
+        <h2 class="section1__title title">
+          UNA CREMA QUE RESTAURARÁ TUS ARTICULACIONES.
+        </h2>
+        <div class="section1__wrap">
+          <div class="section1__block">
+            <p class="section1__text">
+              El ungüento para articulaciones ayuda a reducir el dolor en las
+              articulaciones. Algunos ingredientes del ungüento, como el
+              alcanfor y el mentol, pueden aliviar el dolor y mejorar la
+              circulación en la zona de las articulaciones, favorecer su rápida
+              recuperación.
+            </p>
+          </div>
+          <div class="section1__block">
+            <img src="./img/muñeca.webp" alt="fixinol" class="section1__img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 3 -->
+    <section class="section3">
+      <div class="container">
+        <h2 class="section3__title title">BENEFICIOS DE FIXINOL</h2>
+        <div class="section3__wrap">
+          <div class="section3__left">
+            <ul class="section3__list">
+              <li class="section3__list-item">Cura no enmascara el dolor.</li>
+              <li class="section3__list-item">Fórmula natural patentada.</li>
+              <li class="section3__list-item">Eficaz en casos difíciles.</li>
+              <li class="section3__list-item">
+                Devuelve movilidad a las articulaciones.
+              </li>
+              <li class="section3__list-item">Seguro y eficazs.</li>
+              <li class="section3__list-item">100% ingredientes naturales.</li>
+            </ul>
+            <div class="hero__cta-wrap">
+              <a
+                class="btn hero__cta navigate"
+                href="./"
+                data-target="footerForm"
+                >Pídelo ahora</a
+              >
+            </div>
+          </div>
+          <div class="section3__right">
+            <img
+              src="./img/cuello.webp"
+              alt="Beneficios de Fixinol"
+              class="section3__img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- exercise -->
+    <section class="exercise-section">
+      <div class="container">
+        <h2 class="exercise-section__title">Agrega ejercicios simples</h2>
+
+        <ul class="exercise_list" id="exercise_slider">
+          <li class="exercise_list-item">
+            <img alt="Ejercicio 1" src="img/yoga-1.webp" />
+            <p class="_comment">
+              Acuéstese en el suelo, doble la pierna a la altura de la rodilla y
+              sostenga con las manos, sosteniendo firmemente su vientre.
+              <b
+                >Permanezca en esta posición durante 30 segundos, luego repita
+                este ejercicio con la otra pierna.</b
+              >
+            </p>
+          </li>
+
+          <li class="exercise_list-item">
+            <img alt="Ejercicio 2" src="img/yoga-2.webp" />
+            <p class="_comment">
+              Estire las piernas sentado en el suelo.
+              <b
+                >Toque sus pies con las manos, permaneciendo en esta posición
+                durante 30 segundos.</b
+              >
+            </p>
+          </li>
+
+          <li class="exercise_list-item">
+            <img alt="Ejercicio 3" src="img/yoga-3.webp" />
+            <p class="_comment">
+              Apóyate sobre los codos, levantando cuidadosamente el cuerpo.
+              <b>Permanezca en esta posición durante 30 segundos.</b>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--(Ingredientes) -->
+    <section class="section4">
+      <div class="container">
+        <h2 class="section4__title title">
+          INGREDIENTES Y COMPOSICIÓN COMPLETAMENTE NATURALES
+        </h2>
+        <div class="section4__wrap">
+          <div class="section4__item">
+            <div class="section4__photo">
+              <img
+                src="./img/solv1.webp"
+                alt="Clorhidrato de L-arginina"
+                class="section4__img"
+              />
+            </div>
+            <div class="section4__info">
+              <p class="section4__name">Aceite de hígado de tiburón</p>
+              <p class="section4__text">
+                El aceite de hígado de tiburón aporta escualeno, ácidos grasos
+                esenciales y vitaminas (A y D) que contribuyen a la salud
+                articular y del sistema inmunológico. Favorece la lubricación de
+                las articulaciones, ayuda a reducir la inflamación y promueve la
+                recuperación del tejido conectivo, contribuyendo así al
+                bienestar general.
+              </p>
+            </div>
+          </div>
+          <div class="section4__item">
+            <div class="section4__photo">
+              <img
+                src="./img/solv2.webp"
+                alt="L-citrulina DL-malato"
+                class="section4__img"
+              />
+            </div>
+            <div class="section4__info">
+              <p class="section4__name">Extracto de centella asiática</p>
+              <p class="section4__text">
+                El extracto de centella asiática es conocido por sus propiedades
+                reparadoras, ya que favorece la circulación sanguínea y la
+                producción de colágeno, contribuyendo a la regeneración de la
+                piel y los tejidos. Además, ayuda a mantener la elasticidad y
+                firmeza, facilitando la recuperación y mejorando la apariencia
+                general de la piel.
+              </p>
+            </div>
+          </div>
+          <div class="section4__item">
+            <div class="section4__photo">
+              <img
+                src="./img/solv3.webp"
+                alt="Coenzima-Q10"
+                class="section4__img"
+              />
+            </div>
+            <div class="section4__info">
+              <p class="section4__name">Extracto de flor de árnica montana</p>
+              <p class="section4__text">
+                El extracto de flor de árnica montana es reconocido por sus
+                propiedades antiinflamatorias y analgésicas, que ayudan a calmar
+                el dolor muscular y articular. Además, favorece la circulación y
+                promueve la recuperación de lesiones, contribuyendo al bienestar
+                de los tejidos.
+              </p>
+            </div>
+          </div>
+          <div class="section4__item">
+            <div class="section4__photo">
+              <img
+                src="./img/solv4.webp"
+                alt="Coenzima-Q10"
+                class="section4__img"
+              />
+            </div>
+            <div class="section4__info">
+              <p class="section4__name">Condroitina</p>
+              <p class="section4__text">
+                La condroitina es un componente natural del cartílago que
+                contribuye a mantener su estructura y elasticidad. Ayuda a
+                reducir la fricción entre las articulaciones, favorece la
+                retención de agua en el tejido cartilaginoso y promueve la
+                regeneración, contribuyendo a una mejor movilidad y bienestar
+                articular.
+              </p>
+            </div>
+          </div>
+          <div class="section4__item">
+            <div class="section4__photo">
+              <img
+                src="./img/solv5.webp"
+                alt="Coenzima-Q10"
+                class="section4__img"
+              />
+            </div>
+            <div class="section4__info">
+              <p class="section4__name">Glucosamina</p>
+              <p class="section4__text">
+                La glucosamina es un compuesto natural que se encuentra en el
+                cartílago y otros tejidos conectivos. Contribuye a la
+                regeneración del cartílago, ayuda a mejorar la movilidad
+                articular y reduce la rigidez y el dolor, promoviendo un mejor
+                funcionamiento de las articulaciones.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- uso -->
+    <section class="section regulations">
+      <div class="container">
+        <div class="limit">
+          <h2 class="_title">
+            <span
+              >Cómo se aplica Fixinol: <br />
+              3 reglas importantes</span
+            >
+          </h2>
+
+          <!-- Subtítulo -->
+          <div class="wrapp_mob">
+            <p class="_subtitle">
+              Aplique la crema dos veces al día solo en el estado de reposo
+            </p>
+          </div>
+
+          <!-- Texto testimonial o instructivo -->
+          <div class="regulations_review">
+            <p class="_text _text_mod">
+              Para sentir la acción curativa de Fixinol lo antes posible,
+              aplíquelo en las áreas dolorosas y descanse.
+            </p>
+          </div>
+
+          <!-- Tarjeta: Mañana -->
+          <div class="regulations_card _morning go_form">
+            <img alt="" class="circle" src="img/card1.webp" />
+            <img alt="" class="icon" src="img/morning.webp" />
+            <span class="regulations_card_name">En la mañana</span>
+            <p class="_text">
+              Aplicar la crema en las zonas doloridas por la mañana, justo
+              después de despertar. Después de eso, acuéstese durante 20 a 30
+              minutos, permitiendo que la crema se absorba por completo.
+            </p>
+          </div>
+
+          <!-- Tarjeta: Noche -->
+          <div class="regulations_card _night go_form">
+            <img alt="" class="circle" src="img/card2.webp" />
+            <img alt="" class="icon" src="img/night.webp" />
+            <div class="regulations_card_name">En la noche</div>
+            <p class="_text">
+              Aplicar la crema en las zonas afectadas justo antes de acostarse.
+              Asegúrese de que sus músculos y articulaciones estén relajados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 8 (Cómo obtenerlo) -->
+    <section class="section8">
+      <div class="container">
+        <h2 class="section8__title title">¿COMO OBTENERLO?</h2>
+        <div class="section8__wrap">
+          <ol class="section8__list">
+            <li class="section8__list-item">
+              <span class="section8__number">1</span>
+              Complete el formulario de pedido...
+            </li>
+            <li class="section8__list-item">
+              <span class="section8__number">2</span>
+              Espere a que nuestro especialista llame...
+            </li>
+            <li class="section8__list-item">
+              <span class="section8__number">3</span>
+              Su pedido será entregado por mensajería...
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__content container">
+        <!-- Modificación del formulario del footer -->
+        <div class="header__form form-block">
+          <div class="form-block__header">
+            <p class="form-block__text">
+              RELLENE EL SIGUIENTE FORMULARIO PARA OBTENER SU DESCUENTO
+            </p>
+          </div>
+          <form id="footerForm" class="form-block__form">
+            <!-- El contenido del formulario es igual al anterior -->
+            <div class="form-block__prices">
+              <div class="form-block__price form-block__price--old">
+                Precio inicial
+                <span class="oldPriceAndLabelForLandingInfoApi price"
+                  >78&nbsp;$</span
+                >
+              </div>
+              <div class="form-block__price form-block__price--new">
+                Precio con descuento
+                <span class="priceAndLabelForLandingInfoApi price"
+                  >39&nbsp;$</span
+                >
+              </div>
+            </div>
+            <div class="form-block__labels">
+              <label for="footerName" class="form-block__label">
+                <input
+                  id="footerName"
+                  type="text"
+                  name="name"
+                  class="form-block__input"
+                  placeholder="Nombre"
+                  required
+                />
+              </label>
+              <label for="footerPhone" class="form-block__label">
+                <input
+                  id="footerPhone"
+                  type="tel"
+                  name="phone"
+                  class="form-block__input"
+                  placeholder="Número de teléfono (+593)"
+                  required
+                />
+              </label>
+            </div>
+            <div id="footerFormLoading" class="loading hidden">
+              Procesando su solicitud...
+            </div>
+            <button class="form-block__btn" type="submit">Pedir</button>
+          </form>
+        </div>
+        <center>
+          <div class="footer__links">
+            <div>
+              QUITO-ECUADOR, Distribuidor único para Ecuador(C)(P) <br />
+              <a
+                href="./policy.html"
+                class="policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Politica de privacidad</a
+              >
+            </div>
+          </div>
+        </center>
+      </div>
+    </footer>
+
+    <!-- Botón flotante de retroalimentación -->
+    <div class="feedback">
+      <img src="./img/form-ico.webp" alt="icono de formulario" />
+    </div>
+
+    <!-- Pop-up -->
+    <!-- Modificación del formulario popup -->
+    <div class="popup-window">
+      <div class="close-popup"></div>
+      <form id="popupForm" class="form cream__form">
+        <label for="popupName">POR EJEMPLO: MARÍA LOPEZ</label>
+        <input
+          id="popupName"
+          type="text"
+          name="name"
+          placeholder="Alejandro Rodriguez"
+          required
+        />
+        <label for="popupPhone">POR EJEMPLO: +593 933 543 342</label>
+        <input
+          id="popupPhone"
+          type="tel"
+          name="phone"
+          placeholder="Ingrese su teléfono"
+          required
+        />
+        <div id="popupFormLoading" class="loading hidden">
+          Procesando su solicitud...
+        </div>
+        <button type="submit">DEJAR UNA SOLICITUD</button>
+      </form>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
