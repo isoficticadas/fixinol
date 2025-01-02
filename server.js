@@ -80,6 +80,11 @@ app.get('/', cache(60), (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+// Ruta para servir el archivo policy.html
+app.get('/policy.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'policy.html'));
+});
+
 app.get('/gracias.html', cache(60), (req, res) => {
     res.sendFile(path.join(__dirname, 'gracias.html'));
 });
